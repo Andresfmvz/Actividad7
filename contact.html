@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTContact</title>
+    <link rel="stylesheet" href="Css/style.css">
+      <link rel="stylesheet" href="Css/transitions.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/sword.png"/>
+    <script src="Scripts/JQuery.3.5.1.js"></script>
+</head>
+<body>
+  <div class="transition transition-1 is-active"></div>
+
+    <div class="titlebanner"><h1 class="title">Law On Time</h1></div>
+    
+    <div class="menu">
+        <a href="index.html"><button class="buttonmenu">Home</button></a>
+        <a href="cases.html"><button class="buttonmenu">Cases</button></a>
+        <a href="contact.html"><button class="buttonmenu">Contact and agreements</button></a>
+    </div>
+
+    <p class="contactext">By filling the form and clicking on the button “send” you agree to let us use that information to get in contact with you, 
+        and to start building the case. Please keep in mind that we will reply to your request in the next 24 hours, so be patient, 
+        and if you are in an emergency situation, get in contact the local authorities.<br><br>
+        The first meeting is always free as it is determined whether opening a legal case is necessary or not. From there, each meeting 
+        must be paid in advance with a cost of $40 (US). Usually it will take two or three more meetings before you get assigned to the 
+        proper professional which has his or her own hourly fee (usually between $50 to $60 per hour). It is common for our lawyers to 
+        demand to the other party compensation for the expenses of your case.</p>
+
+    <div class="formbox">
+    <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_mail">
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <button class="send" onclick="mensaje()">Enviar</button>
+       </ul>
+    </div>
+
+    <div class="bannerbottom">
+        <p class="textbottombanner">Law on Time is part of the F.D.A and the O.A.S. We work together with all public institutions and the 
+            Washington Capitol. All rights reserved.</p>
+    </div>
+
+
+
+    <script src="Scripts/javascript.js"></script>
+    
+</body>
+</html>
